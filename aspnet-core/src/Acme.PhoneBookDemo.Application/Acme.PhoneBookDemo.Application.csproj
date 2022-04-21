@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props"></Import>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Acme.PhoneBookDemo.Application</AssemblyName>
+    <PackageId>Acme.PhoneBookDemo.Application</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Acme.PhoneBookDemo</RootNamespace>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.EntityFrameworkCore.EFPlus" Version="7.1.0" />
+    <PackageReference Include="NPOI" Version="2.5.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acme.PhoneBookDemo.Application.Shared\Acme.PhoneBookDemo.Application.Shared.csproj" />
+    <ProjectReference Include="..\Acme.PhoneBookDemo.Core\Acme.PhoneBookDemo.Core.csproj" />
+    <ProjectReference Include="..\Acme.PhoneBookDemo.EntityFrameworkCore\Acme.PhoneBookDemo.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>
