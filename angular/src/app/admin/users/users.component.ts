@@ -178,7 +178,7 @@ export class UsersComponent extends AppComponentBase implements AfterViewInit {
     showDynamicProperties(user: UserListDto): void {
         this.dynamicEntityPropertyManager
             .getModal()
-            .show('Acme.PhoneBookDemo.Authorization.Users.User', user.id.toString());
+            .show('LibraryDemo.Authorization.Users.User', user.id.toString());
     }
 
     setUsersProfilePictureUrl(users: UserListDto[]): void {

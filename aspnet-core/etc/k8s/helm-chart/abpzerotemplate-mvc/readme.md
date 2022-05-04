@@ -13,6 +13,6 @@ helm uninstall anz
 ## Create Images
 
 ```bash
-docker build -t abpzerotemplate-mvc -f src\Acme.PhoneBookDemo.Web.Mvc\Dockerfile .
-docker build -t abpzerotemplate-migrator -f src\Acme.PhoneBookDemo.Migrator\Dockerfile .
+docker build -t abpzerotemplate-mvc -f src\LibraryDemo.Web.Mvc\Dockerfile .
+docker build -t abpzerotemplate-migrator -f src\LibraryDemo.Migrator\Dockerfile .
 ```

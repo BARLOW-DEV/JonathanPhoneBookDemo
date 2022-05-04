@@ -3,8 +3,8 @@
 $buildFolder = (Get-Item -Path "./" -Verbose).FullName
 $slnFolder = Join-Path $buildFolder "../"
 $outputFolder = Join-Path $buildFolder "outputs"
-$webHostFolder = Join-Path $slnFolder "src/Acme.PhoneBookDemo.Web.Host"
-$webPublicFolder = Join-Path $slnFolder "src/Acme.PhoneBookDemo.Web.Public"
+$webHostFolder = Join-Path $slnFolder "src/LibraryDemo.Web.Host"
+$webPublicFolder = Join-Path $slnFolder "src/LibraryDemo.Web.Public"
 $ngFolder = Join-Path $buildFolder "../../angular"
 
 ## CLEAR ######################################################################

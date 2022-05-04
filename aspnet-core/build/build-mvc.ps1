@@ -3,8 +3,8 @@
 $buildFolder = (Get-Item -Path "./" -Verbose).FullName
 $slnFolder = Join-Path $buildFolder "../"
 $outputFolder = Join-Path $buildFolder "outputs"
-$webMvcFolder = Join-Path $slnFolder "src/Acme.PhoneBookDemo.Web.Mvc"
-$webPublicFolder = Join-Path $slnFolder "src/Acme.PhoneBookDemo.Web.Public"
+$webMvcFolder = Join-Path $slnFolder "src/LibraryDemo.Web.Mvc"
+$webPublicFolder = Join-Path $slnFolder "src/LibraryDemo.Web.Public"
 
 ## CLEAR ######################################################################
 
@@ -14,7 +14,7 @@ New-Item -Path $outputFolder -ItemType Directory
 ## RESTORE NUGET PACKAGES #####################################################
 
 Set-Location $slnFolder
-dotnet restore Acme.PhoneBookDemo.Web.sln
+dotnet restore LibraryDemo.Web.sln
 
 ## PUBLISH WEB MVC PROJECT ####################################################
 

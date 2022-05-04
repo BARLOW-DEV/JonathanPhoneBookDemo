@@ -25,7 +25,7 @@ export class RolesComponent extends AppComponentBase implements OnInit {
     @ViewChild('dataTable', { static: true }) dataTable: Table;
     @ViewChild('permissionFilterTreeModal', { static: true }) permissionFilterTreeModal: PermissionTreeModalComponent;
 
-    _entityTypeFullName = 'Acme.PhoneBookDemo.Authorization.Roles.Role';
+    _entityTypeFullName = 'LibraryDemo.Authorization.Roles.Role';
     entityHistoryEnabled = false;
 
     constructor(injector: Injector, private _roleService: RoleServiceProxy) {

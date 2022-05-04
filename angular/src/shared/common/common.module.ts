@@ -8,7 +8,7 @@ import { CookieConsentService } from './session/cookie-consent.service';
 @NgModule({
     imports: [CommonModule],
 })
-export class PhoneBookDemoCommonModule {
+export class LibraryDemoCommonModule {
     static forRoot(): ModuleWithProviders<CommonModule> {
         return {
             ngModule: CommonModule,

@@ -1,7 +1,0 @@
-﻿namespace Acme.PhoneBookDemo.Configuration
-{
-    public interface IExternalLoginOptionsCacheManager
-    {
-        void ClearCache();
-    }
-}

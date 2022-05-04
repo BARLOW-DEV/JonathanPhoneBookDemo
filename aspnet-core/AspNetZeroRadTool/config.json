@@ -1,10 +1,10 @@
 {
-  "CompanyName": "Acme",
-  "ProjectName": "PhoneBookDemo",
+  "CompanyName": "",
+  "ProjectName": "LibraryDemo",
   "ProjectType": "Angular",
   "ProjectVersion": "v11.1.0",
   "ApplicationAreaName": "App",
-  "LicenseCode": "00DXtkdoUV+h7m51e3UtuGay5R3CHyMhoW35e9b42078696e68c4c5299369f00699",
+  "LicenseCode": "0084qUNP1Jk9ChQ88A0ZqQvA==e29e5f9cb229b8e13b1bc3f1fbda2ec4",
   "AngularSrcPath": "\\..\\..\\angular\\src\\",
   "AngularMergedSrcPath": "\\..\\src\\{{Namespace_Here}}.Web.Host\\src\\",
   "CoreSrcPath": "\\..\\src\\",

@@ -16,7 +16,7 @@ export class AppConsts {
     };
 
     static readonly localization = {
-        defaultLocalizationSourceName: 'PhoneBookDemo',
+        defaultLocalizationSourceName: 'LibraryDemo',
     };
 
     static readonly authorization = {

@@ -1,9 +1,0 @@
-﻿using System.Collections.Generic;
-
-namespace Acme.PhoneBookDemo.Chat.Dto
-{
-    public class ChatUserWithMessagesDto : ChatUserDto
-    {
-        public List<ChatMessageDto> Messages { get; set; }
-    }
-}
