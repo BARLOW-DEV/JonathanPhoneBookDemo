@@ -11,7 +11,7 @@ export function getRemoteServiceBaseUrl(): string {
     return 'https://localhost:44301';
 }
 
-describe('App: PhoneBookDemo', () => {
+describe('App: LibraryDemo', () => {
     // Remove freezeui loading animation
     (window as any).FreezeUI = function () {};
     (window as any).UnFreezeUI = function () {};

@@ -3,7 +3,7 @@ import { ModuleWithProviders, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppLocalizationService } from '@app/shared/common/localization/app-localization.service';
 import { AppNavigationService } from '@app/shared/layout/nav/app-navigation.service';
-import { PhoneBookDemoCommonModule } from '@shared/common/common.module';
+import { LibraryDemoCommonModule } from '@shared/common/common.module';
 import { UtilsModule } from '@shared/utils/utils.module';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { TabsModule } from 'ngx-bootstrap/tabs';
@@ -44,7 +44,7 @@ import { KeyValueListManagerComponent } from './key-value-list-manager/key-value
         ReactiveFormsModule,
         ModalModule.forRoot(),
         UtilsModule,
-        PhoneBookDemoCommonModule,
+        LibraryDemoCommonModule,
         TableModule,
         PaginatorModule,
         TabsModule.forRoot(),

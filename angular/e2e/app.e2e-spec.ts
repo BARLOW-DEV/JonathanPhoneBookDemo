@@ -1,11 +1,11 @@
-import { PhoneBookDemoPage } from './app.po';
+import { LibraryDemoPage } from './app.po';
 import { browser, element, by } from 'protractor';
 
 describe('abp-zero-template App', () => {
-    let page: PhoneBookDemoPage;
+    let page: LibraryDemoPage;
 
     beforeEach(() => {
-        page = new PhoneBookDemoPage();
+        page = new LibraryDemoPage();
 
         browser.driver.manage().deleteAllCookies();
 

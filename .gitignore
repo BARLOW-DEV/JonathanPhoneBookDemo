@@ -3,7 +3,7 @@
 # IDEs and editors
 .vs/
 .idea/
-/aspnet-core/src/Acme.PhoneBookDemo.Web.Mvc/Properties/PublishProfiles/FolderProfile.pubxml
+/aspnet-core/src/LibraryDemo.Web.Mvc/Properties/PublishProfiles/FolderProfile.pubxml
 aspnet-core/test/JMeter/AspNetZeroDotNetCoreSimpleTest.jmx
 /aspnet-core/build/outputs
 
@@ -14,7 +14,7 @@ aspnet-core/test/JMeter/AspNetZeroDotNetCoreSimpleTest.jmx
 aspnet-core/DeleteBinsAndObjs.bat
 
 *.pubxml
-aspnet-core/src/Acme.PhoneBookDemo.Web.Host/healthchecksdb
-aspnet-core/src/Acme.PhoneBookDemo.Web.Public/healthchecksdb
-aspnet-core/src/Acme.PhoneBookDemo.Web.Mvc/healthchecksdb
+aspnet-core/src/LibraryDemo.Web.Host/healthchecksdb
+aspnet-core/src/LibraryDemo.Web.Public/healthchecksdb
+aspnet-core/src/LibraryDemo.Web.Mvc/healthchecksdb
 *.pfx

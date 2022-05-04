@@ -1,6 +1,6 @@
 import { browser, element, by, protractor, ExpectedConditions as EC } from 'protractor';
 
-export class PhoneBookDemoPage {
+export class LibraryDemoPage {
     navigateTo() {
         return browser.get('/');
     }

@@ -44,7 +44,7 @@ export class TenantsComponent extends AppComponentBase implements OnInit {
     ];
     creationDateRange: DateTime[] = [this._dateTimeService.getStartOfDay(), this._dateTimeService.getEndOfDay()];
 
-    _entityTypeFullName = 'Acme.PhoneBookDemo.MultiTenancy.Tenant';
+    _entityTypeFullName = 'LibraryDemo.MultiTenancy.Tenant';
     entityHistoryEnabled = false;
 
     filters: {

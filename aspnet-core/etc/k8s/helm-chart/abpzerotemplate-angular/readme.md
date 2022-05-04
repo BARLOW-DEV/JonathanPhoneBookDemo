@@ -14,8 +14,8 @@ helm uninstall anz
 
 ### run in the aspnet-core folder
 ```bash
-docker build -t abpzerotemplate-host -f src\Acme.PhoneBookDemo.Web.Host\Dockerfile .
-docker build -t abpzerotemplate-migrator -f src\Acme.PhoneBookDemo.Migrator\Dockerfile .
+docker build -t abpzerotemplate-host -f src\LibraryDemo.Web.Host\Dockerfile .
+docker build -t abpzerotemplate-migrator -f src\LibraryDemo.Migrator\Dockerfile .
 ```
 
 ### run in the angular folder

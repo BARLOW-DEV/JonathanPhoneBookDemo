@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppAuthService } from '@app/shared/common/auth/app-auth.service';
 import { AppConsts } from '@shared/AppConsts';
-import { PhoneBookDemoCommonModule } from '@shared/common/common.module';
+import { LibraryDemoCommonModule } from '@shared/common/common.module';
 import { AppSessionService } from '@shared/common/session/app-session.service';
 import { AppUiCustomizationService } from '@shared/common/ui/app-ui-customization.service';
 import { UrlHelper } from '@shared/helpers/UrlHelper';
@@ -81,10 +81,10 @@ export function appInitializerFactory(injector: Injector, platformLocation: Plat
 function initializeLocalForage() {
     localForage.config({
         driver: localForage.LOCALSTORAGE,
-        name: 'PhoneBookDemo',
+        name: 'LibraryDemo',
         version: 1.0,
         storeName: 'abpzerotemplate_local_storage',
-        description: 'Cached data for PhoneBookDemo',
+        description: 'Cached data for LibraryDemo',
     });
 }
 
@@ -266,7 +266,7 @@ function handleLogoutRequest(authService: AppAuthService) {
         BrowserModule,
         BrowserAnimationsModule,
         AppModule,
-        PhoneBookDemoCommonModule.forRoot(),
+        LibraryDemoCommonModule.forRoot(),
         ServiceProxyModule,
         HttpClientModule,
         RootRoutingModule,
